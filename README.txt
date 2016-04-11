@@ -1,6 +1,6 @@
 
 compilation
-gcc main.c -lSDL  -o romk
+gcc main.c-o romk
 
 
 example :
