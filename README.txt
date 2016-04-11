@@ -16,9 +16,9 @@ romk -divrom rom 4
 
 romk -divfile file 4 outname
 
-add -divrom file 16 
+romk -add file 16 
 out byte (0-255) :
-add -divrom file 16 255
+romk -add file 16 255
 
 romk -divf3
 
