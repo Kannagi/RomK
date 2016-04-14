@@ -1,15 +1,18 @@
+romk -rom8k rom 16
+romk -rom file1 10
+romk -rom file2 10
+
 romk -compare file1 file2
 romk -invert file
-romk -rom8k 16
-romk -rom 10
 
-romk -divfile file 4
+
+romk -divfile file1 4
 romk -divrom rom 4
 
-romk -divfile file 4 outname
+romk -divfile file1 4 outname
 
-add -divrom file 16 
-add -divrom file 16 255
+add -divrom rom 16 
+add -divrom rom 16 255
 
 romk -divf3
 
